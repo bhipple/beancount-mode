@@ -1,5 +1,5 @@
 EMACS ?= emacs
-SRC = beancount.el
+SRC = beancount-mode.el
 TESTS = beancount-tests.el
 
 compile: $(SRC)

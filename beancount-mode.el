@@ -1,4 +1,4 @@
-;;; beancount.el --- A major mode to edit Beancount input files. -*- lexical-binding: t -*-
+;;; beancount-mode.el --- A major mode to edit Beancount input files. -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2013 Martin Blais <blais@furius.ca>
 ;; Copyright (C) 2015 Free Software Foundation, Inc.
@@ -1078,4 +1078,4 @@ Essentially a much simplified version of `next-line'."
       (browse-url (match-string 1 output))))
 
 (provide 'beancount)
-;;; beancount.el ends here
+;;; beancount-mode.el ends here
